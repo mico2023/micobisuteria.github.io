@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>MICO: conócenos! </title>
+	<title>MICO: Quiénes somos</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="MICO shop project">
@@ -9,165 +9,266 @@
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<!--<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
 	<link href="plugins/fontawesome-free-6.4.2-web/css/all.min.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link href="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="styles/categories.css">
+	<link rel="stylesheet" type="text/css" href="styles/categories_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
 </head>
+
 <body>
 
-	<div class="super_container">
+<div class="super_container">
 
-		<!-- Header -->
+	<!-- Header -->
 
-		<header class="header">
-			<div class="header_inner d-flex flex-row align-items-center justify-content-start">
-				<div class="logo"><a href="#">     MICO  </a></div>
-				<nav class="main_nav">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="product.html">Productos</a></li>
-						<li><a href="conocenos.html">Conócenos</a></li>
-						<li><a href="donde_estamos.html">Dónde estamos</a></li>
-						<li><a href="contact.html">Contacto</a></li>
-					</ul>
-				</nav>
-				<div class="header_content ml-auto">
-					<div class="search header_search">
-						<form method="get" action="#">
-							<label>
-								<span class="search_button">
-									<svg>
-										<use xlink:href="#search"></use>
-									</svg>
-								</span>
-							</label>
-							<input type="text" name="s" class="search_input" placeholder="Search" autocomplete="off">
-							<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
-						</form>
-					</div>
-					<div class="shopping">
-						<!-- Cart -->
-						<a href="#">
-							<div class="cart">
-								<!--
-							<img src="images/shopping-bag.svg" alt="">
-							<div class="cart_num_container">
-								<div class="cart_num_inner">
-									<div class="cart_num">1</div>
-								</div>
-							</div>
-							-->
-							</div>
-						</a>
-						<!-- Star -->
-						<a href="#">
-							<div class="star">
-								<!--
-							<img src="images/star.svg" alt="">
-							<div class="star_num_container">
-								<div class="star_num_inner">
-									<div class="star_num">0</div>
-								</div>
-							</div>
-							-->
-							</div>
-						</a>
-						<!-- Avatar -->
-						<a href="#">
-							<div class="avatar">
-								<!--
-							<img src="images/avatar.svg" alt="">
-							-->
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
-			</div>
-		</header>
-
-		<!-- Menu -->
-
-		<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-			<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-			<div class="logo menu_mm"><a href="index.html"> MICO </a></div>
-			<!--<div class="search">
-		<form action="#">
-			<input type="search" class="search_input menu_mm" required="required">
-			<button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm" src="images/magnifying-glass.svg" alt=""></button>
-		</form>
-		</div>-->
-			<nav class="menu_nav">
-				<ul class="menu_mm">
-					<li class="menu_mm"><a href="index.html">Inicio</a></li>
-					<li class="menu_mm"><a href="product.html">Productos</a></li>
-					<li class="menu_mm"><a href="conocenos.html">Conócenos</a></li>
-					<li class="menu_mm"><a href="donde_estamos.html">Dónde estamos</a></li>
-					<li class="menu_mm"><a href="contact.html">Contacto</a></li>
+	<header class="header">
+		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"><a href="#">     MICO  </a></div>
+			<nav class="main_nav">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="product.html">Productos</a></li>
+					<li><a href="conocenos.html">Conócenos</a></li>
+					<li><a href="donde_estamos.html">Dónde estamos</a></li>
+					<li><a href="contact.html">Contacto</a></li>
 				</ul>
 			</nav>
-		</div>
-
-		<!-- Newsletter -->
-		<div class="newsletter">
-			<div class="newsletter_content">
-				<div class="newsletter_image" style="background-color:azure"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="section_title_container text-center">
-								<div class="section_subtitle"></div>
-								<div class="section_title">¿Quiénes somos? </div>
+			<div class="header_content ml-auto">
+				<div class="search header_search">
+					<form method="get" action="#">
+						<label>
+							<span class="search_button">
+								<svg>
+									<use xlink:href="#search"></use>
+								</svg>
+							</span>
+						</label>
+						<input type="text" name="s" class="search_input" placeholder="Search" autocomplete="off">
+						<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
+					</form>
+				</div>
+				<div class="shopping">
+					<!-- Cart -->
+					<a href="#">
+						<div class="cart">
+							<!--
+						<img src="images/shopping-bag.svg" alt="">
+						<div class="cart_num_container">
+							<div class="cart_num_inner">
+								<div class="cart_num">1</div>
 							</div>
 						</div>
-					</div>
-					<div class="row newsletter_container">
-						<div class="col-lg-10 offset-lg-1">
-							<div class="newsletter_text">
-							Somos Mico, somos tu. 
+						-->
+						</div>
+					</a>
+					<!-- Star -->
+					<a href="#">
+						<div class="star">
+							<!--
+						<img src="images/star.svg" alt="">
+						<div class="star_num_container">
+							<div class="star_num_inner">
+								<div class="star_num">0</div>
 							</div>
 						</div>
-					</div>
+						-->
+						</div>
+					</a>
+					<!-- Avatar -->
+					<a href="#">
+						<div class="avatar">
+							<!--
+						<img src="images/avatar.svg" alt="">
+						-->
+						</div>
+					</a>
 				</div>
 			</div>
+
+			<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
 		</div>
+	</header>
 
+	<!-- Menu -->
 
-		<!-- Footer -->
-
-		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<div class="footer_logo"><a href="#"> MICO </a></div>
-						<nav class="footer_nav">
-							<ul>
-								<li><a href="terminos_condiciones.html">Términos y condiciones </a></li>
-								<li><a href="aviso_legal.html">Aviso legal</a></li>
-								<li><a href="politica_cookies.html">Política de cookies</a></li>
-							</ul>
-						</nav>
-						<div class="footer_social">
-							<ul>
-								<li><a href="https://instagram.com/mico.bisuteria?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.tiktok.com/@micobisuteria?_t=8dINxX0rQLb&_r=1&fbclid=PAAaYI4UCkmtik7vLPK1NJnL5ZGuxRMPnXddD9c5H9Z68iFWZVQ5AnQQQwkdQ_aem_Aee847oo9bxvIonswFSXEXK5pgaBR2hyKDgouTxLIrdZ4DWNwHLuRaOpxYZfiy2vZf0"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="copyright">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							&copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | MICO  <i class="fa fa-heart-o" aria-hidden="true"></i>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="logo menu_mm"><a href="index.html"> MICO </a></div>
+		<!--<div class="search">
+	<form action="#">
+		<input type="search" class="search_input menu_mm" required="required">
+		<button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm" src="images/magnifying-glass.svg" alt=""></button>
+	</form>
+	</div>-->
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Inicio</a></li>
+				<li class="menu_mm"><a href="product.html">Productos</a></li>
+				<li class="menu_mm"><a href="conocenos.html">Conócenos</a></li>
+				<li class="menu_mm"><a href="donde_estamos.html">Dónde estamos</a></li>
+				<li class="menu_mm"><a href="contact.html">Contacto</a></li>
+			</ul>
+		</nav>
 	</div>
+
+	<!-- Presentacion MICO -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/mico-21.JPG" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="home_container">
+						<div class="home_content">
+							<div class="section_title">Quiénes somos</div>
+							<div class="breadcrumbs">
+								<ul>
+										
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="newsletter_content">
+		<div class="container">
+			<div class="row newsletter_row">
+			</div>
+			<div class="row newsletter_container">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="contact_info_text">
+						<p>
+							Bienvenidos a MICO, el destino definitivo para la bisutería de acero inoxidable de calidad y estilo.
+							Nos enorgullecemos de ser líderes en la industria, brindando a nuestros clientes una gama diversa
+							de accesorios que combinan la elegancia del diseño con la durabilidad del acero inoxidable.
+							También MICO se unen en una exquisita colección accesorios de moda. Nos complace ser un referente
+							en la industria, brindando a nuestros clientes una selección diversa y elegante de piezas que
+							realzan el estilo y el encanto personal.
+							<br />
+						</p>
+						<p>
+
+							<strong>Nuestra Historia e Introducción:</strong>
+							<br />
+							Desde nuestros inicios, hemos tenido una visión clara: ofrecer a nuestros clientes mucho
+							más que joyería; ofrecer una experiencia que celebre la expresión individual y la artesanía
+							excepcional. Lo que comenzó como una pasión por la creación de accesorios únicos y duraderos
+							ha evolucionado en una marca reconocida en todo el mercado de la moda.
+							<br />
+						</p>
+						<p>
+							<strong>Nuestra Filosofía:</strong>
+							<br />
+							En MICO, creemos en la autenticidad y la calidad sin concesiones. Cada pieza que
+							sale de nuestros talleres refleja esta filosofía, fusionando la belleza del diseño con
+							la resistencia del acero inoxidable. Creemos en la capacidad de los accesorios para
+							elevar el espíritu y expresar la personalidad única de cada individuo.
+							<br />
+						</p>
+						<p>
+							<strong>Una colección completa de accesorios </strong>
+							<br />
+							En MICO, no solo nos limitamos a la bisutería de acero inoxidable. También ofrecemos
+							una amplia gama de accesorios que abarcan desde pinzas de pelo de metal y gafas
+							de sol hasta elegantes gorros de sol. Cada artículo ha sido seleccionado y diseñado
+							con el mismo compromiso con la calidad y el estilo que caracteriza a nuestra marca.
+							<br />
+						</p>
+						<p>
+							<strong>Nuestro Objetivo:</strong>
+							<br />
+							Nuestro objetivo es simple pero ambicioso: queremos que nuestros clientes se sientan
+							empoderados y hermosos con cada pieza que elijan. Nos esforzamos por ser más que
+							una tienda de accesorios, queremos ser parte de tu historia personal y ayudarte a
+							definir tu estilo único.
+							<br />
+							Ya sea que estés buscando un collar llamativo para un evento
+							especial o un brazalete versátil para el día a día, tenemos algo que se adapta a
+							cada gusto y ocasión.
+							<br />
+						</p>
+						<p>
+							<strong>Nuestras Tiendas y Experiencia de Compra:</strong>
+							<br />
+							Nuestras tiendas son más que puntos de venta; son destinos para explorar y experimentar.
+							<br />
+							Con ubicaciones en toda España, hemos creado espacios acogedores donde nuestros clientes
+							pueden disfrutar de una experiencia de compra excepcional. Nuestro personal atento está
+							aquí para asesorarte en cada paso y ayudarte a encontrar las piezas que se adaptan
+							perfectamente a tu estilo y personalidad.
+							<br />
+						</p>
+						<p>
+							<strong>
+								Compromiso con la Calidad y Sostenibilidad:
+							</strong>
+							<br />
+							Nuestro compromiso con la calidad es inquebrantable. Cada pieza que fabricamos y
+							cada accesorio que ofrecemos ha sido cuidadosamente seleccionado y diseñado para
+							garantizar su longevidad.
+							<br />
+							Además, también nos esforzamos por ser responsables con el medio ambiente, eligiendo
+							materiales y prácticas sostenibles siempre que sea posible.
+							<br />
+						</p>
+						<p>
+							<strong>
+								Únete a la Comunidad MICO:
+							</strong>
+							<br />
+							Te invitamos a ser parte de nuestra comunidad y explorar el mundo de la bisutería y
+							los accesorios de moda. MICO es un lugar donde cada pieza cuenta una historia y cada estilo se celebra.
+							<br />
+						</p>
+						<p>
+							En MICO, estamos encantados de ser tu destino para la bisutería de acero inoxidable y
+							accesorios de moda.
+							<br />
+							Gracias por elegirnos para ser parte de tus momentos especiales
+							y tu viaje de estilo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="footer_logo"><a href="#"> MICO </a></div>
+					<nav class="footer_nav">
+						<ul>
+							<li><a href="terminos_condiciones.html">Términos y condiciones </a></li>
+							<li><a href="aviso_legal.html">Aviso legal</a></li>
+							<li><a href="politica_cookies.html">Política de cookies</a></li>
+						</ul>
+					</nav>
+					<div class="footer_social">
+						<ul>
+							<li><a href="https://instagram.com/mico.bisuteria?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.tiktok.com/@micobisuteria?_t=8dINxX0rQLb&_r=1&fbclid=PAAaYI4UCkmtik7vLPK1NJnL5ZGuxRMPnXddD9c5H9Z68iFWZVQ5AnQQQwkdQ_aem_Aee847oo9bxvIonswFSXEXK5pgaBR2hyKDgouTxLIrdZ4DWNwHLuRaOpxYZfiy2vZf0"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="copyright">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						&copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | MICO  <i class="fa fa-heart-o" aria-hidden="true"></i>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
