@@ -560,12 +560,13 @@ section
 	left: 0;
 	top: 62.4%;
 }
-.home_title
-{
+.home_title {
 	font-family: 'Lucida', serif;
-	font-size: 36px;
+	font-size: 60px;
+	text-transform: uppercase;
 	color: #FFFFFF;
-	line-height: 0.75;
+	margin-top: -4px;
+	opacity: 1;
 }
 .breadcrumbs
 {
