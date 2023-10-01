@@ -752,6 +752,10 @@ section
 	line-height: 41px;
 	font-size: 14px;
 }
+.sorting_left
+{
+	float: left;
+}
 .sorting
 {
 	float: right;
@@ -760,6 +764,25 @@ section
 {
 	display: inline-block;
 }
+
+.item_sorting_left > li
+{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 41px;
+	line-height: 39px;
+	cursor: pointer;
+	border: solid 1px #b5b5b5;
+	padding-left: 15px;
+	padding-right: 17px;
+	margin-right: 8px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #232323;
+	margin-bottom: 10px;
+}
+
 .item_sorting > li
 {
 	display: inline-block;
@@ -780,6 +803,11 @@ section
 .item_sorting > li:last-child
 {
 	margin-right: 0;
+}
+
+.num_sorting_text_left
+{
+	padding-right: 11px;
 }
 .num_sorting_text
 {
