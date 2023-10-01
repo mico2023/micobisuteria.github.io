@@ -648,6 +648,11 @@ section
 	padding-left: 31px;
 	padding-right: 19px;
 	white-space: nowrap;
+	max-width: 75%;
+	-moz-max-width: 75%;
+	-webkit-max-width: 75%;
+	-o-max-width: 75%;
+	-ms-max-width: 75%;
 }
 
 .home_slider_subtitle {
@@ -668,6 +673,11 @@ section
 	font-family: 'Lucida', serif;
 	font-size: 18px;
 	white-space: nowrap;
+	max-width: 75%;
+	-moz-max-width: 75%;
+	-webkit-max-width: 75%;
+	-o-max-width: 75%;
+	-ms-max-width: 75%;
 }
 
 .home_slider_next {
