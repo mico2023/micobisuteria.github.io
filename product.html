@@ -11,10 +11,13 @@
 	<link href="plugins/fontawesome-free-6.4.2-web/css/all.min.css" rel="stylesheet" type="text/css">
 	<link href="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="styles/categories.css">
-	<link rel="stylesheet" type="text/css" href="styles/categories_responsive.css">
-	<link rel="stylesheet" type="text/css" href="styles/contact.css">
-	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 
 <body>
@@ -116,147 +119,34 @@
 	<!-- Presentacion productos -->
 
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/mico-89.JPG" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="home_container ">
-						<div class="home_content title_box ">
-
-								<div class="section_title">Productos MICO  </div>
-								
-								<div class="breadcrumbs">
-									<ul>
-									</ul>
-								</div>
-								
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	</div>
-
-	<!-- Products -->
-
-	<div class="products">
-		<div class="container">
-			<div class="row">
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
 				
-				<div class="col-12">
-					<div class="product_sorting clearfix">
-						
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/shops/IMG_3094.JPG)"></div>
+					<div class="home_slider_content" >
+						<div class="home_slider_content_inner" >
+							<div class="home_slider_title">Colección dorado</div>
+						</div>	
 					</div>
 				</div>
-			</div>
-			<div class="row products_container">
-				<div class="col">
 
-					<!-- Products
-				I am showing just 1 product as example. But should be added with database. 
-				Now I am showing all the products -->
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/shops/IMG_3109.JPG)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_content_inner">
+							<div class="home_slider_title">Colección gemma azul</div>
+						</div>	
+					</div>
+				</div>
 
-					<div class="product_grid">
-
-						<!-- Product 1 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0872.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes perla cuadro </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>
-						<!-- Product 2 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0876.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes oval perla </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>
-						<!-- Product 3 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0880.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes forma flor </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>
-						<!-- Product 4 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0892.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes perla </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>
-						<!-- Product 5 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0895.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes flor </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>
-						<!-- Product 6 -->
-						<div class="product">
-							<div class="product_image"><img src="images/earings/IMG_0899.JPG" alt=""></div>
-							
-							<div class="product_content clearfix">
-								<div class="product_info">
-									<div class="product_name"><a href="product.html">Pendientes forma </a></div>
-									<div class="product_price"></div>
-								</div>
-								<!-- There are the option to add bag. Not implemented. We need JS. -->
-								<!-- I am removing also the option to add to bag, we dont have serers-->
-								<div class="product_options">
-									<!-- <div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>-->
-								</div>
-							</div>
-						</div>						
-
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/shops/IMG_3149.JPG)"></div>
+					<div class="home_slider_content">
+						<div class="home_slider_title">Colección perlas</div>
 					</div>
 				</div>
 
@@ -264,7 +154,397 @@
 			
 		</div>
 	</div>
+	</div>
 
+	<!-- Anillos -->
+
+	<div class="arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle">Presentamos una parte de ... </div>
+						<div class="section_title">Nuestros anillos</div>
+					</div>
+				</div>
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3291.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo medalla </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3292.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo gemma verde</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3293.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo piedra cielo</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3294.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo nivel </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3295.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo gemma verde</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3302.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo forma hoja</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3303.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo aro </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3304.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo gemma blanaco</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/rings/IMG_3305.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Anillo hojo</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Pendientes -->
+
+	<div class="arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle"></div>
+						<div class="section_title">Nuestros pendientes</div>
+					</div>
+				</div>
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_3306.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes arco </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_3307.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes corazon</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_3309.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes perla</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_3311.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes flor </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_3310.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes lágrima</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/earings/IMG_0934.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Pendientes mariposa</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Collares -->
+
+	<div class="arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_subtitle"></div>
+						<div class="section_title">Nuestros colgantes</div>
+					</div>
+				</div>
+			</div>
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3312.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar abanico </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3313.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar atrapasueños</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3314.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar ojo</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row products_container">
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3315.JPG" alt="">
+						</div>
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar luna </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3316.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar piedras</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product -->
+				<div class="col-lg-4 product_col">
+					<div class="product">
+						<div class="product_image">
+							<img src="images/neckeless/IMG_3317.JPG" alt="">
+						</div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name">Collar lunar</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer -->
 
@@ -310,5 +590,8 @@
 <script src="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.js"></script>
 <script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <script src="js/categories_custom.js"></script>
+
+
+
 </body>
 </html>
